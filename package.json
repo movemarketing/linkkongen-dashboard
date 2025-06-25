@@ -1,0 +1,28 @@
+{
+  "name": "linkkongen-dashboard",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prisma": "prisma",
+    "migrate": "prisma migrate dev --name init"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "stripe": "^12.0.0",
+    "micro": "^9.3.4",
+    "next-auth": "^4.0.0",
+    "@prisma/client": "^5.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/stripe": "^12.0.0",
+    "prisma": "^5.0.0"
+  }
+}
